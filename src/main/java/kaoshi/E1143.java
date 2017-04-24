@@ -10,8 +10,8 @@ import java.io.Writer;
  */
 public class E1143 {
 
-    public static void main(String[] args) {
-        try {
+    //public static void main(String[] args) {
+    /*    try {
             Writer writer1=new FileWriter("txt1");
             writer1.write("abc");
             writer1.flush();
@@ -29,5 +29,5 @@ public class E1143 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 }
