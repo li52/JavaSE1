@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0;list-style: none;}
+        #box{
+            width:200px;
+            height:100px;
+            margin:20px auto;
+        }
+        #box p{
+            height:40px;
+        }
+        #box button{
+            margin-left:10px;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <p id="con"></p>
+    <button id="btn1">开始</button>
+    <button id="btn2">暂停</button>
+</div>
+<script>
+    var arr=["<img src=../../../../../../Pictures/01145062.jpg />",
+        "2",
+        "1",
+        /*"<img src=../../../../../../Pictures/5{]T2]Z25PTVUO(0KX5TC8D.png/>",*/
+        "3",
+    ];
+    /*   for(var i=0;i<arr.length;i++){
+     console.log(arr[i]);
+     }*/
+    var con=document.getElementById("con"),
+        btn1=document.getElementById("btn1"),
+        btn2=document.getElementById("btn2");
+    //点击开始 名字一个一个循环
+    var i=0;
+    function aa() {
+        con.innerHTML=arr[i];
+        i++;
+        //如果到最后一个 i=0
+        if(i>arr.length-1){
+            i=0;
+        }
+    }
+    btn1.onclick=function () {
+        
+        sl=setInterval(aa,1000); //定时器
+    }
+    btn2.onclick=function () {
+        clearInterval(sl); //清除定时器
+        btn1.disabled='';
+
+    }
+    //点击暂停  名字停止
+    </script>
+
+</body>
+</html>

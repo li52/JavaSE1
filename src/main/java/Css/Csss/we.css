@@ -1,0 +1,44 @@
+#box{
+    height: 800px;
+    width: 800px;
+    background: red;
+    margin: auto;
+}
+#box1{
+    height: 100px;
+    width: 800px;
+    background: navy;
+}
+#box2{
+    height: 100px;
+    width: 800px;
+    background: fuchsia;
+}
+#box3{
+    height: 100px;
+    width: 800px;
+    background: tomato;
+}
+#box4{
+    height: 300px;
+    width: 800px;
+    background: pink;
+}
+#box5{
+    height: 200px;
+    width: 800px;
+    background: darkgreen;
+
+}
+#red{
+    height: 300px;
+    width: 500px;
+    background: rebeccapurple;
+    float: left
+}
+#if{
+    height: 300px;
+    width: 300px;
+    background: lightblue;
+    float: left
+}

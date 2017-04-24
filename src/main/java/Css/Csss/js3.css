@@ -1,0 +1,30 @@
+*{margin: 0px;padding: 0px;list-style: none}
+#box {
+    width: 400px;
+    height: auto;
+    background: blue;
+    margin: 40px auto;
+    padding: 20px;
+}
+#box ul {
+    height: auto;
+}
+#box ul li {
+    line-height: 40px;
+    float: left;
+    padding: 0 35px;
+    background: hotpink;
+    color: forestgreen;
+    border-right: 1px solid #fff;
+}
+#con {
+    height: auto;
+}
+#con p {
+    padding: 20px;
+    width: 360px;
+    height: auto;
+    background: #fff;
+    display: none;
+}
+
