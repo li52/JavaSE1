@@ -11,9 +11,7 @@ public class ChekedExceptionTest {
     public static void main(String[] args) {
         System.out.println("test......");
         test();
-
     }
-
     private static void test() {
         //抽取方法  ctrl+alt+m
         System.out.println("input a file name;");
@@ -26,7 +24,6 @@ public class ChekedExceptionTest {
             //System.err.println("file not found!");  //快捷键serr
             System.out.println("file not found!");
             test();//递归  recursive
-
         }
     }
 }
