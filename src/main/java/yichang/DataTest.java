@@ -11,7 +11,7 @@ public class DataTest {
         DataInputStream dataInputStream = new DataInputStream(System.in);
         DataOutputStream dataOutputStream = new DataOutputStream(System.out);
 //        dataInputStream.
-//        dataOutputStream.
+//        dataOutputStream.io
 //        RandomAccessFile randomAccessFile
     }
 }
