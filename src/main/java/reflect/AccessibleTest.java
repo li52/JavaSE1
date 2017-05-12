@@ -8,7 +8,7 @@ import java.lang.reflect.Field;
  */
 public class AccessibleTest {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, IllegalAccessException {
-        Person person=new Person(29);
+        Person person=new Person();
         Field age=Class.forName("reflect.Person").getDeclaredField("age");
         age.setAccessible(true);
         age.setInt(person,age.getInt(person)+1);
@@ -17,10 +17,4 @@ public class AccessibleTest {
     }
 }
 
-class Person {
-    private int age;
-    public Person(int age) {
-        this.age=age;
 
-    }
-}
